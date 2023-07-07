@@ -1684,7 +1684,7 @@ input, select, textarea {
 		cursor: pointer;
 		border-radius: 50px;
 		text-shadow: none !important;
-		overflow: hidden;
+		/* overflow: hidden; */
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #e0c0a6 !important;
 		padding: 1em 2.35em 1em 2.35em;
@@ -1939,12 +1939,12 @@ input, select, textarea {
 
 /* Icons */
 
-	.icon {
+	/* .fa {
 		text-decoration: none;
 		text-decoration: none;
 	}
 
-		.icon:before {
+		.fa:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -1957,32 +1957,32 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon:before {
+		.fa:before {
 			font-size: 1.25em;
 		}
 
-		.icon > .label {
+		.fa > .label {
 			display: none;
 		}
 
-		.icon.solid:before {
+		.fa.solid:before {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
+		.fa.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.featured {
+		.fa.fa {
 			color: #EA8A95;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
 		}
 
-			.icon.featured:before {
+			.fa.featured:before {
 				font-size: 6em;
-			}
+			} */
 
 /* Wrappers */
 
