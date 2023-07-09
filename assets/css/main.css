@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #5e5e5e !important;
 		}
 
 		a img {
@@ -183,6 +183,17 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
+	h4 {
+		font-size: 1em;
+		letter-spacing: -0.015em;
+	}
+
+	h4.col-12-small {
+		font-size: 1.091em;
+		letter-spacing: -0.015em;
+		padding-top: 1cm;
+	}
+
 	em, i {
 		font-style: italic;
 	}
@@ -221,6 +232,10 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+	#pader {
+		padding-top: 1cm;
+		padding-bottom: -20px;
+	}
 /* Container */
 
 	.container {
@@ -1542,7 +1557,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #64141a;
 		}
 
 	form textarea {
@@ -1690,6 +1705,8 @@ input, select, textarea {
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
+		/* transition:         color 1s;
+		transition-timing-function: linear; */
 	}
 
 		input[type="button"]:hover,
@@ -1698,7 +1715,16 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #64141a !important;
+			transition:         color 0.3s;
+			transition: background-color 0.3s;
+			transition-timing-function: ease-out;
 			color: #e0c0a6 !important;
+			/* -webkit-transition: color 0.1s;
+			-moz-transition:    color 0.1s;
+			-ms-transition:     color 0.1s;
+			-o-transition:      color 0.1s;
+			transition:         color 1s;
+			transition-timing-function: linear; */
 		}
 
 		input[type="button"]:active,
@@ -1706,7 +1732,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #64141a;
 			top: 1px;
 		}
 
@@ -1744,6 +1770,12 @@ input, select, textarea {
 			.button.alt:active {
 				background-color: #e0c0a6;
 			}
+
+	h4 {
+		margin-top: 1cm;
+		margin-bottom: -10px;
+		text-align: left;
+	}
 
 /* List */
 
@@ -2104,9 +2136,9 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	#top {
+	#top  {
 		padding: 10em 0 10em 0;
-		text-align: left;
+		align-items: center !important; 
 	}
 
 		#top .image {
@@ -2114,6 +2146,7 @@ input, select, textarea {
 			width: 20em;
 			height: 20em;
 			margin: 0;
+
 		}
 
 			#top .image img {
@@ -2443,3 +2476,4 @@ input, select, textarea {
 					}
 
 	}
+
